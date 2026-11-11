@@ -7,6 +7,8 @@ name: CUDA tests (simulated H100)
 # does not replace it.
 
 on:
+  push:
+    branches: [ verify-single-job ]
   workflow_dispatch:
   pull_request:
     paths:
